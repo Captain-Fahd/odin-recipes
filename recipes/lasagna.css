@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Bablus;
+    src: url(BebasNeue-Bold.ttf);
+}
+@font-face {
+    font-family: Bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+body{
+    font-family: Bebas;
+    background-color: silver;
+}
+.title{
+    box-sizing: border-box;
+    font-family: Bablus;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    background-color: white;
+
+}
+.lasagna{
+    border-style: solid;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.recipe{
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.button{
+    background-color: white;
+    margin-top: 400cm;
+    padding: 10px;
+    border-style: solid;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}

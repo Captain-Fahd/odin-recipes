@@ -1,0 +1,43 @@
+/*Universal Code*/
+@font-face {
+    font-family: TestFont;
+    src: url(BebasNeue-Bold.ttf);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+/*Specific Code*/
+.pg-title{
+    border-bottom: 3px solid black; /* Solid border below title */
+    text-align: center;
+    font-family: TestFont;
+    font-size: 60px;
+    margin: 20px 0 0 0; /* Space above and below title */
+}
+
+.menu{
+    font-family: TestFont;
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center the menu items */
+    margin-top: 0; /* Remove space between title and menu */
+}
+
+.menu-item {
+    padding: 10px 20px; /* Vertical and horizontal padding */
+    border: 3px solid black; /* Solid border around each menu item */
+    margin: 0; /* No margin between items */
+    background-color: white; /* Background color */
+    border-top: none; /* Remove top border so it touches the title */
+}
+
+.menu-item:first-child {
+    border-right: 0px;
+    border-bottom-left-radius: 30px; /* Round bottom-left corner */
+}
+
+.menu-item:last-child {
+    border-left: 0px;
+    border-bottom-right-radius: 30px; /* Round bottom-right corner */
+}
